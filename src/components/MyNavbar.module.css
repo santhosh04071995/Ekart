@@ -1,0 +1,48 @@
+.subcat {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+.mycls{
+    display: none;
+}
+.mytwoicon {
+    margin-left: auto;
+}
+.mycountparent {
+    position: absolute;
+}
+.mycount {
+    right: -50px;
+    position: relative;
+    bottom: 40px;
+}
+@media (max-width:769px) {      
+    .myflex {
+         display: flex ;
+        justify-content: unset ;
+         
+    }
+    .mymenu {
+        display: none;
+    }
+    .mycount {
+        left: -15px;
+        bottom: 18px;
+    }
+    
+}
+@media (min-width:769px) {      
+    .mytwoicon {
+         display: none; 
+         margin-left: auto; 
+        }
+        .fabar {
+            display: none;
+        }
+}
+

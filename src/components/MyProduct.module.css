@@ -1,0 +1,15 @@
+.pimage{
+ width: 150px;
+ height: 150px;
+ margin: auto;
+}
+.mytitle {
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.myimg {
+  width: 100px;
+  height: 100px;
+}
